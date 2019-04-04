@@ -102,8 +102,10 @@
                         <div class="intro_item_content">
                             <div class="intro_item_title">Web Sites</div>
                             <div class="intro_item_text">
-                                <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam
-                                    pretium turpis eget nibh laoreet iaculis.</p>
+                                <p><i>Website</i> é uma palavra que resulta da justaposição das palavras inglesas <i>web</i> (rede) e <i>site</i> (sítio, lugar). No
+                                    contexto das comunicações eletrônicas, <i>website</i> e <i>site</i> possuem o mesmo significado e são utilizadas para fazer
+                                    referência a uma página ou a um agrupamento de páginas relacionadas entre si, acessíveis na internet através de um
+                                    determinado endereço eletrônico.</p>
                             </div>
                         </div>
                     </div>
@@ -136,8 +138,12 @@
                         <div class="intro_item_content">
                             <div class="intro_item_title">e-Commerce</div>
                             <div class="intro_item_text">
-                                <p>Suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis.
-                                    Proin ac urna at lectus volutpat lobortis.</p>
+                                <p>E-commerce é a abreviação em inglês de <i>eletronic commerce</i>, que significa "<b>comércio eletrônico</b>" em
+                                    português.
+
+                                    O e-commerce é um modelo de comércio que utiliza como base plataformas eletrônicas, como computadores,
+                                    smartphones, tablets e etc. Basicamente, trata-se de todo tipo de comercialização de bens comerciais através de
+                                    dispositivos eletrônicos. </p>
                             </div>
                         </div>
                     </div>
@@ -211,7 +217,21 @@
             </div>
         </div>
     </div>
-
+    <div id="innerchart">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <br/>
+                    <div id="all-social_media-ww-monthly-201803-201903" width="600" height="400" style="width:600px; height: 400px;"></div>
+                    <!-- You may change the values of width and height above to resize the chart -->
+                    <p>Source:
+                        <a href="http://gs.statcounter.com/social-media-stats">StatCounter
+                            Global Stats - Social Media Market Share</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Pricing -->
 
     <div class="pricing">
@@ -224,7 +244,8 @@
                         <div class="pricing_item text-center magic_fade_in">
                             <div class="pricing_title">HotSite</div>
                             <div class="pricing_content">
-                                <div class="package_price">R$ 49.90<span>/Mês</span></div>
+                                {{--<div class="package_price">R$ 49.90<span>/Mês</span></div>--}}
+                                <div class="package_price">Consulte-nos</div>
                                 <div class="pricing_list">
                                     <ul>
                                         <li class="pack_ok d-flex flex-row align-items-center justify-content-center">
@@ -273,7 +294,8 @@
                         <div class="pricing_item text-center magic_fade_in">
                             <div class="pricing_title">Básico WebSite</div>
                             <div class="pricing_content">
-                                <div class="package_price">R$ 59.90<span>/Mês</span></div>
+                                {{--<div class="package_price">R$ 59.90<span>/Mês</span></div>--}}
+                                <div class="package_price">Consulte-nos</div>
                                 <div class="pricing_list">
                                     <ul>
                                         <li class="pack_ok d-flex flex-row align-items-center justify-content-center">
@@ -322,7 +344,8 @@
                         <div class="pricing_item text-center magic_fade_in">
                             <div class="pricing_title">e-Commerce</div>
                             <div class="pricing_content">
-                                <div class="package_price">R$ 79.90<span>/Mês</span></div>
+                                {{--<div class="package_price">R$ 79.90<span>/Mês</span></div>--}}
+                                <div class="package_price">Consulte-nos</div>
                                 <div class="pricing_list">
                                     <ul>
                                         <li class="pack_ok d-flex flex-row align-items-center justify-content-center">
@@ -438,9 +461,11 @@
                     <div class="choice_content">
                         <div class="section_title magic_fade_in"><h2>Por que nos escolher?</h2></div>
                         <div class="choice_text">
-                            <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam
-                                pretium turpis eget nibh laoreet iaculis. Nullam lacinia ex eleifend orci porttitor,
-                                suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis.</p>
+                            <p>O desenvolvimento de aplicações tem por base um trabalho de estudo sobre qual o conceito de design a adotar, a
+                                usabilidade (UI – interface do utilizador) e experiência do utilizador (UX).</p>
+                            <p>Desenvolvemos todo o tipo de aplicação web, totalmente desenhadas sob medida dentro do seu objetivo.
+                                Temos experiência em aplicações como ERP, redes sociais, e-Commerce, aplicações para dispositivos móveis,
+                                entre outros.</p>
                         </div>
                         <div class="choice_list">
                             <ul class="d-flex flex-row align-items-start justify-content-between">
@@ -478,7 +503,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="cta_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-between justify-content-center magic_fade_in">
+                    <div
+                        class="cta_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-between justify-content-center magic_fade_in">
                         <div class="cta_title">Tenha seu site agora!</div>
                         <div class="cta_price"><span>Apartir de</span>R$49.90<span>/mês*</span></div>
                         <div class="cta_button"><a href="#">Entre em contato</a></div>

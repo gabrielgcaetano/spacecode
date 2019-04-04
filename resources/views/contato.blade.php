@@ -93,7 +93,7 @@
                     <div class="contact_content">
                         <div class="contact_title magic_fade_in">Informações para contato</div>
                         <div class="contact_text magic_fade_in">
-                            <p>Nos envie uma mensagem que entraremos em contato com você.</p>
+                            <p>Envie-nos uma mensagem que entraremos em contato com você.</p>
                         </div>
                     </div>
                 </div>

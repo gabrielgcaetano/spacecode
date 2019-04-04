@@ -111,5 +111,7 @@
 <script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/custom.js"></script>
+<script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script>
+<script type="text/javascript" src="https://gs.statcounter.com/chart.php?all-social_media-ww-monthly-201803-201903&chartWidth=600"></script>
 </body>
 </html>

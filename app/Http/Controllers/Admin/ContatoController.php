@@ -14,7 +14,7 @@ class ContatoController extends Controller
 
     function enviaAvisoContato(Request $request)
     {
-        Mail::to('gabriel.goulartcaetano@gmail.com')
+        Mail::to('contato@spacecode.tech')
             ->send(new SendMailUser($request->all()));
         echo 'Enviado com Sucesso!';
     }

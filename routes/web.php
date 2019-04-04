@@ -18,3 +18,5 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('contato', 'Admin\ContatoController@index')->name('contato');
+
+Route::post('envio-email', 'Admin\ContatoController@enviaAvisoContato')->name('envio-email');
