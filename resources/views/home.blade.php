@@ -1,7 +1,7 @@
 @include('inc.head')
 
 <div class="super_container">
-    <header class="header trans_400">
+    <header class="header trans_400" onload="enviadoEmail({{$param}})">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -212,23 +212,6 @@
             </div>
         </div>
     </div>
-    {{--<div id="innerchart">--}}
-        {{--<div class="container">--}}
-            {{--<div class="row">--}}
-                {{--<div class="col">--}}
-                    {{--<br/>--}}
-                    {{--<div id="all-social_media-ww-monthly-201803-201903" width="600" height="400" style="width:600px; height: 400px;"></div>--}}
-                    {{--<!-- You may change the values of width and height above to resize the chart -->--}}
-                    {{--<p>Source:--}}
-                        {{--<a href="http://gs.statcounter.com/social-media-stats">StatCounter--}}
-                            {{--Global Stats - Social Media Market Share</a>--}}
-                    {{--</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-    <!-- Pricing -->
-
     <div class="pricing">
         <div class="container">
             <div class="row">

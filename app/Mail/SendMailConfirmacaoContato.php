@@ -29,8 +29,8 @@ class SendMailConfirmacaoContato extends Mailable
     public function build()
     {
         $dados = $this->dados;
-        return $this->from('teste@spacecode.tech', 'Atendimento')
+        return $this->from('contato@spacecode.tech', 'Atendimento')
             ->subject("Envio de Contato")
-            ->view('emails.confirmacaocontato', compact('dados'));
+            ->view('emails.contato', compact('dados'));
     }
 }

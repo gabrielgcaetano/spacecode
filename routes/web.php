@@ -14,9 +14,12 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    $param = false;
+    return view('home', compact('param'));
 })->name('home');
 
+Route::get('principal', 'Admin\HomeController@index')->name('principal');
 Route::get('contato', 'Admin\ContatoController@index')->name('contato');
 
-Route::post('envio-email', 'Admin\ContatoController@enviaAvisoContato')->name('envio-email');
+Route::post('envio-emails', 'Admin\ContatoController@enviaAvisoContato')->name('envio-emails');
+Route::post('envio-emails2', 'Admin\ContatoController@enviaAvisoContato2')->name('envio-emails2');

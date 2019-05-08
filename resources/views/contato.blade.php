@@ -100,10 +100,14 @@
                 <div class="col-lg-6 contact_col magic_fade_in">
                     <div class="message_form_container">
                         <div class="contact_title">Formulário</div>
-                        <form action="#" id="message_form" class="message_form">
-                            <input type="text" class="message_input" placeholder="Nome" required="required">
-                            <input type="email" class="message_input" placeholder="E-mail" required="required">
-                            <textarea class="message_input message_textarea" placeholder="Mensagem"
+                        <br/>
+                        <form id="contact_form" class="contact_form" method="POST" action="{{ route('envio-emails2' )}}">
+                            {!! csrf_field() !!}
+
+                            <input type="text" class="message_input" placeholder="Nome" name="nome" required="required">
+                            <input type="email" class="message_input" placeholder="E-mail" name="email" required="required">
+                            <input type="text" class="message_input" placeholder="Seu Telefone (xx) xxxx-xxxx" name="telefone" required="required">
+                            <textarea class="message_input message_textarea" name="mensagem" placeholder="Mensagem"
                                       required="required"></textarea>
                             <button class="message_form_button">Enviar</button>
                         </form>

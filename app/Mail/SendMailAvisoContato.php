@@ -31,6 +31,6 @@ class SendMailAvisoContato extends Mailable
         $dados = $this->dados;
         return $this->from('teste@spacecode.tech', 'Atendimento')
             ->subject("Envio de Contato")
-            ->view('emails.avisocontato', compact('dados'));
+            ->view('emails.contato', compact('dados'));
     }
 }

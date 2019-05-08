@@ -33,6 +33,6 @@ class SendMailUser extends Mailable
         $dados = $this->dados;
         return $this->from('contato@spacecode.tech', 'Atendimento')
             ->subject("Envio de Contato")
-            ->view('emails.test', compact('dados'));
+            ->view('emails.contato', compact('dados'));
     }
 }
