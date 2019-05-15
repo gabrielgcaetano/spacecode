@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col">
                     <div class="header_content d-flex flex-row align-items-center justify-content-start trans_400">
-                        <div class="logo"><a href="#">SpaceCode<span>.Tech</span></a></div>
+                        <div class="logo"><a href="{{route('home')}}">SpaceCode<span>.Tech</span></a></div>
                         <nav class="main_nav ml-auto mr-auto">
                             <ul class="d-flex flex-row align-items-center justify-content-start">
                                 <li><a href="{{route('home')}}">Home</a></li>
