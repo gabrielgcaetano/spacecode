@@ -11,6 +11,7 @@
                             <ul class="d-flex flex-row align-items-center justify-content-start">
                                 <li class="active"><a href="{{route('contato')}}">Home</a></li>
                                 <li><a href="{{ route('contato') }}">Contato</a></li>
+                                <li><a href="{{ route('planos') }}">Planos</a></li>
                             </ul>
                         </nav>
                         <div class="log_reg">

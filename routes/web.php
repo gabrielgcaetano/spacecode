@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Route::get('principal', 'Admin\HomeController@index')->name('principal');
 Route::get('contato', 'Admin\ContatoController@index')->name('contato');
+Route::get('planos', 'Admin\ContatoController@planos')->name('planos');
 
 Route::post('envio-emails', 'Admin\ContatoController@enviaAvisoContato')->name('envio-emails');
 Route::post('envio-emails2', 'Admin\ContatoController@enviaAvisoContato2')->name('envio-emails2');

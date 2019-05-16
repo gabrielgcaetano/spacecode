@@ -15,6 +15,12 @@ class ContatoController extends Controller
         return view('contato', compact('param'));
     }
 
+    function planos()
+    {
+        $param = false;
+        return view('contatoplanos', compact('param'));
+    }
+
     function enviaAvisoContato(Request $request)
     {
         Mail::to('contato@spacecode.tech')
